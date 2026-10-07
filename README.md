@@ -4,20 +4,12 @@ This project implements a U-Net deep learning model to perform Semantic Segmenta
 The project demonstrates an end-to-end ML pipeline, from data preprocessing and augmentation to model training with checkpointing and performance evaluation.
 ## Key Results
 The model was evaluated on the validation set, achieving competitive performance metrics that surpass standard baseline implementations for this dataset.
-Metric
-Score
-Note
-Mean IoU
-0.6307
-Indicates strong overlap between predicted and ground truth masks.
-Accuracy
-82.58%
-High pixel-wise classification accuracy.
-Dice Coeff
-0.7664
-Excellent boundary delineation.
-Val Loss
-0.7423
+| Metric | Score | Note |
+| --- | --- | --- |
+| **Mean IoU** | **0.6307** | Indicates strong overlap between predicted and ground truth masks. |
+| **Accuracy** | **82.58%** | High pixel-wise classification accuracy. |
+| **Dice Coeff** | **0.7664** | Excellent boundary delineation. |
+| **Val Loss** | **0.7423** |  |
 ## Technical Approach
 Architecture: U-Net (Encoder-Decoder structure with skip connections).
 Framework: PyTorch.
