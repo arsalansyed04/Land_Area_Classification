@@ -1,9 +1,5 @@
 # DeepGlobe Land Cover Classification
-Python
 
-PyTorch
-
-Status
 ## Overview
 This project implements a U-Net deep learning model to perform Semantic Segmentation on the DeepGlobe Land Cover Classification dataset. The goal is to classify every pixel of satellite imagery into specific land cover categories (e.g., Urban, Agriculture, Water) to aid in land resource management and urban planning.
 The project demonstrates an end-to-end ML pipeline, from data preprocessing and augmentation to model training with checkpointing and performance evaluation.
