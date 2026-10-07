@@ -17,7 +17,7 @@ Validation results from two runs of the same notebook code (same seed, same spli
 | 1 | 0.7423 | 82.58% | 0.7664 | 0.6307 |
 | 2 | 0.7373 | 83.20% | 0.7530 | 0.6127 |
 
-![Training curves](assets/training_curves.png)
+![Training curves](training_curves.png)
 
 **How to read these numbers.**
 
@@ -30,7 +30,7 @@ Validation results from two runs of the same notebook code (same seed, same spli
 
 Left to right: satellite image, ground truth, model prediction (validation images).
 
-![Predictions](assets/predictions.png)
+![Predictions](predictions.png)
 
 The colours come from matplotlib's `tab10` colormap, not the official DeepGlobe palette:
 
